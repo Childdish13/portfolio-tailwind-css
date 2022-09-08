@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jagx4896/public_html/dd.frmnsh
+    - export DEPLOYPATH=/home/jagx4896/public_html/ddfrmnsh.me
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
